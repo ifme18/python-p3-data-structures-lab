@@ -41,6 +41,8 @@ def get_spicy_food_by_cuisine(spicy_foods, cuisine):
 
 
 def print_spiciest_foods(spicy_foods):
+    food = get_spiciest_foods(spicy_foods)
+    print_spiciest_foods(food)
     pass
 
 def get_average_heat_level(spicy_foods):
