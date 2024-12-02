@@ -25,6 +25,7 @@ def get_spiciest_foods(spicy_foods):
     return [food for food in spicy_foods if food["heat_level"] > 5]
     
     
+    
 
 def print_spicy_foods(spicy_foods):
     for food in spicy_foods:
