@@ -33,8 +33,10 @@ def print_spicy_foods(spicy_foods):
 
 def get_spicy_food_by_cuisine(spicy_foods, cuisine):
     for food in spicy_foods:
-        if ["cuisine"] == cuisine:
+        if food["cuisine"] == cuisine:
             return food
+    return None  
+
         
  
 
