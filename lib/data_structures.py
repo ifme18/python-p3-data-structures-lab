@@ -34,8 +34,8 @@ def get_spicy_food_by_cuisine(spicy_foods, cuisine):
     return None
 
 def print_spiciest_foods(spicy_foods):
-    spiciest_foods = get_spiciest_foods(spicy_foods)  # Get foods with heat_level > 5
-    print_spicy_foods(spiciest_foods)  # Print them using the helper function
+    spiciest_foods = get_spiciest_foods(spicy_foods)  
+    print_spicy_foods(spiciest_foods)  
 
 def get_average_heat_level(spicy_foods):
     total = sum(food["heat_level"] for food in spicy_foods)
