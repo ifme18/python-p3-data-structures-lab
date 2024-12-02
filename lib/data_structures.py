@@ -26,9 +26,9 @@ def get_spiciest_foods(spicy_foods):
     
 
 def print_spicy_foods(spicy_foods):
-    for food in spicy_foods:
-        heat_level = "🌶"*["heat_level"]
-        print(f"{food['name']} ({food['cuisine']}) | Heat Level: {heat_level}")
+     for food in spicy_foods:
+        heat_level_emoji = '🌶' * food["heat_level"]
+        print(f"{food['name']} ({food['cuisine']}) | Heat Level: {heat_level_emoji}")
     
 
 def get_spicy_food_by_cuisine(spicy_foods, cuisine):
